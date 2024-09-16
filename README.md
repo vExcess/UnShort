@@ -10,7 +10,7 @@ I was spending too much time doom scrolling through shorts leaving me too little
 2) Naviate to repo
 3) Run `make` to compile TypeScript to JS
 4) Go to chrome://extensions/
-5) Click "Load unpacked" (might have to enable Developer mode) and select the repo in the file picker
+5) Click "Load unpacked" (may need to enable Developer mode) and select the repo in the file picker
 6) Profit
 
 ## Uninstall
