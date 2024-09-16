@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "UnShort",
+    "description": "Block YT shorts and display time watched",
+    "version": "1.0",
+    "action": {
+      "default_popup": "unshort.html",
+      "default_icon": "images/icon-128.png"
+    },
+    "content_scripts": [
+        {
+            "js": ["scripts/unshort.js"],
+            "matches": [
+                "https://www.youtube.com/*"
+            ]
+        }
+    ],
+    "permissions": [
+        "storage"
+    ]
+  }
