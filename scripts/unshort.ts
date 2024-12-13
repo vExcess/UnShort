@@ -55,7 +55,7 @@
             // remove shorts containers on homepage
             let shortContainers = classElArr('style-scope ytd-rich-shelf-renderer')
                 .filter(el => {
-                    const shorts = el.getElementsByClassName('ShortsLockupViewModelHost');
+                    const shorts = el.getElementsByClassName('shortsLockupViewModelHost');
                     return (el as HTMLElement).offsetParent !== null && el.tagName !== 'YTD-RICH-ITEM-RENDERER' && shorts.length > 0;
                 });
             removeChilds(shortContainers).forEach(container => {
